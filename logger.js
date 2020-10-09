@@ -7,7 +7,7 @@ log = message => {
     console.log(message + ' <3 <3 <3')
 }
 
-module.exports = log 
+exports.log = log 
 // module.exports.endPoint = url 
 
 // sayHi('Kenji')
